@@ -6,8 +6,13 @@ import Products from "./Components/Products/Products";
 import { useEffect } from "react";
 import TopProducts from "./Components/Products/TopProducts";
 import Banner from "./Components/Products/Banner";
+import Subscribe from "./Components/Products/Subscribe";
+import Testimonials from "./Components/Products/Testimonials";
+import Footer from "./Components/Footer/Footer";
+
 
 function App() {
+
   useEffect(() => {
     Aos.init({
       offset: 100,
@@ -19,13 +24,16 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
       <Navbar />
       <Hero />
       <Products />
       <TopProducts />
       <Banner />
-    </>
+      <Subscribe />
+      <Testimonials />
+      <Footer />
+    </div>
   );
 }
 

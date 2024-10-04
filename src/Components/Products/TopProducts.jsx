@@ -26,7 +26,7 @@ function TopProducts() {
     <div>
       <div className="container">
         {/* Header section */}
-        <div className="mb-24 ml-3">
+        <div className="mb-24 ml-4 lg:ml-0">
           <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
           </p>

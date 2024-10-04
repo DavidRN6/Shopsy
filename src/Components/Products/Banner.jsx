@@ -22,14 +22,14 @@ function Banner() {
           </div>
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
-            <h1 className="text-3xl sm:text-4xl font-bold">
+            <h1 className="text-3xl sm:text-4xl font-bold ml-4 lg:ml-0">
               Winter Sale upto 50% Off
             </h1>
-            <p className="text-sm text-gray-500 tracking-wide leading-5">
+            <p className="text-sm text-gray-500 tracking-wide leading-5 ml-4 lg:ml-0">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
               reiciendis inventore iste ratione ex alias quis magni at optio
             </p>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 ml-5 lg:ml-0">
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GrSecure
                   className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full
